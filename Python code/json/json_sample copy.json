@@ -1,0 +1,15 @@
+{
+    "interface": {
+        "name": "GigabitEthernet1",
+        "description": "Router Uplink",
+        "enabled": true,
+        "ipv4": {
+            "address": [
+                {
+                    "ip": "192.168.1.1",
+                    "netmask": "255.255.255.0"
+                }
+            ]
+        }
+    }
+}

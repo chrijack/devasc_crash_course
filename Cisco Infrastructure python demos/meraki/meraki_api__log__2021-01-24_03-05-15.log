@@ -1,0 +1,7 @@
+2021-01-24 03:05:15       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.4.3', 'api_key': '************************************9ea0', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None}
+2021-01-24 03:05:15       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2021-01-24 03:05:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_646829496481107379/clients
+2021-01-24 03:05:17       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2021-01-24 03:05:17       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2021-01-24 03:05:17       meraki:     INFO > GET https://n149.meraki.com/api/v1/networks/L_646829496481107379/clients?perPage=10&startingAfter=kc397dd
+2021-01-24 03:05:18       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK

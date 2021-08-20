@@ -1,0 +1,17 @@
+#simple IOS config in ansible
+---
+- name: IOS show interface
+  hosts: iosxe
+  gather_facts: no
+
+  tasks:
+
+    - name: run show ip int brief
+      ios_command:
+        commands: show ip interface brief
+      register: myint
+
+    - name: display value of "myint" variable
+      debug:
+        var: myint["stdout_lines"][0]
+
